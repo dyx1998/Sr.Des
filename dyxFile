@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.io.IOException;
+
+public class SeniorDesignDriver
+{
+    public static void main(String[] args) throws IOException, InterruptedException
+    {
+        controlPanel mainPanel = new controlPanel();
+        mainPanel.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainPanel.setSize(1100, 200);
+        mainPanel.setVisible(true);
+    }
+}
